@@ -1,0 +1,289 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+
+}
+body{
+width: 100%;
+position: relative;
+background-color: black;
+}
+
+
+div.header {
+    display: flex;
+    width: 100%;
+    height: 127px;
+    justify-content: center;
+    
+    /* border: 1px solid black; */
+    align-items: center;
+    position: fixed;
+  background-color: whitesmoke;
+  /* opacity: 0.5; */
+  
+    
+    
+    
+    
+}
+.logobox {
+  
+    width: 300px;
+    height: 80px;
+    display: flex ;
+    text-align: center;
+    justify-content: center ;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    row-gap: 15px;
+    
+}
+
+.logo1 {
+    
+    font-weight: bold;  
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-size: 25px;
+    
+}
+
+.logo2 {
+    
+    font-weight: lighter;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-size: 15px;
+    
+}
+
+.nav {
+    width: 600px;
+    height: 80px;
+    display:flex ;
+    flex-direction:row ;
+    justify-content: right;
+    gap: 10px;
+    align-items: center;
+    column-gap: 5%;
+    
+    /* border: 1px solid black; */
+}
+a {
+    color: black;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    text-decoration: none;
+    
+    
+
+}
+.loginbox {
+    width: 100px;
+    height: 80px;
+    display:flex ;
+    flex-direction:row ;
+    justify-content: right;
+    gap: 10px;
+    align-items: center;
+    
+    /* border: 1px solid black; */
+}
+.login{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 100%;
+    height: 900px;
+    align-items: center;
+   
+    background-image:url(https://cdn.pixabay.com/photo/2013/11/28/10/36/road-220058_960_720.jpg) ;
+    background-size: cover;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   row-gap: 20px;
+    
+}
+
+
+.text1{
+    color: black;
+    font-size: 20px;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-weight: bold;
+    
+}
+h1 {
+    color: black;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-size: 120px;
+    
+}
+.text2 {
+    color: black;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.button1 {
+    color: black;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    
+}
+.container2 {
+    width: 100%;
+    height: 900px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/07/04/04/37/musician-7300353_960_720.jpg);
+    background-size: cover;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* z-index: 0; */
+}
+.sidebox {
+    width: 50%;
+    height: 900px;
+    display: flex;
+    background-color: white;
+    /* z-index: 20; */
+    justify-content: right;
+    
+}
+.sidetext {
+    width: 65%;
+    height: 900px;
+    /* background-color: whitesmoke;  */
+    flex-direction: column;
+    padding-top: 20%;
+    
+    
+}
+h2 {
+    width: 50%;
+    height: 200px;
+    color: black;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-size: 50px;
+    text-align: left;
+    display: flex;
+    
+    
+}
+h3 {
+    height: 300px;
+}
+.text3 {
+    width: 80%;
+    color: black;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    height: 200px;
+  
+}
+.text4 {
+    height: 200px;
+    width: 80%;
+    color: black;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.button2 {
+    color: black;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    
+}
+.container3 {
+    width: 100%;
+    height: 1100px;
+    padding: 150px 400px;
+    align-items: flex-start;
+   background-image:url(https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_1900,h_1036,al_c,q_90,enc_auto/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg) ;
+    background-size: cover;
+    display: flex;
+   flex-direction: column;
+
+   row-gap: 20px;
+    
+}
+.line {
+    font-size: larger;
+    font-weight: 300;
+}
+h3 {
+    color: black;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-size: 40px;
+    height: 200px;
+}
+.servicesbox {
+    width: 100%;
+    height: 80%;
+    /* background-color: aqua; */
+    border: 10px black;
+    text-align: center;
+    align-items: center;
+    
+}
+p {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+}
+.boxcard {
+    /* background-color: bisque; */
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.textcard1 {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    padding: 5%;
+    text-align: center;
+    /* border: 1px solid black; */
+    
+    
+}
+.textcard2 {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    padding: 5%;
+    /* border: 8px solid black; */
+}
+.textcard3 {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    padding: 5%;
+    /* border: 8px solid black; */
+}
+h4 {
+    height: 60px;
+    font-weight: 1000;
+    font-size: large;
+
+}
+.button2 {
+    background-color: black;
+    width: 100px;
+    height: 35px;
+    color: white;
+}
+.button1 {
+    background-color: black;
+    width: 100px;
+    height: 35px;
+    color: white;
+}
